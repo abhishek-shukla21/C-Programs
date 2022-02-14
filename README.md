@@ -1,4 +1,4 @@
-# C-Programs
+# C-Programs (Give it a Star, if you found it useful)
 C programs
 ### Index
 1. WAP to create a simple calculator using if-else <br>
