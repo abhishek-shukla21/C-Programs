@@ -1,12 +1,12 @@
 # C-Programs
 C programs
 ### Index
-WAP to create a simple calculator using if-else
-WAP to create a simple calculator using switch-case
-WAP to display a number if it is negative
-WAP to Check whether an integer is odd or even
-WAP to relate two integers (hint =,>, < symbol)
-WAP to check whether a year is a leap year or not
+1. WAP to create a simple calculator using if-else <br>
+2. WAP to create a simple calculator using switch-case <br>
+3. WAP to display a number if it is negative <br>
+4. WAP to Check whether an integer is odd or even <br>
+5. WAP to relate two integers (hint =,>, < symbol) <br>
+6. WAP to check whether a year is a leap year or not <br>
 WAP to check whether a character is alphabet or not
 WAP to input any alphabet and check it is vowel or consonant
 WAP to input any character and check whether it is alphabet, digit or special character.
