@@ -1,5 +1,5 @@
-# C-Programs (Give it a Star, if you found it useful)
-C programs
+# C-Programs 
+
 ### Index
 1. WAP to create a simple calculator using if-else <br>
 2. WAP to create a simple calculator using switch-case <br>
@@ -38,3 +38,8 @@ C programs
 35. WAP program to calculate factorial of a number <br>
 36. WAP program to find HCF (GCD) of two numbers. <br>
 37. WAP program to find LCM of two numbers. <br>
+
+
+
+
+##(Give it a Star, if you found it useful)
