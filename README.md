@@ -1,7 +1,7 @@
 # C-Programs 
 
 ### Index
-1. WAP to create a simple calculator using if-else <br>
+1. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/WAP%20to%20create%20a%20simple%20calculator%20using%20if-else.c"> WAP to create a simple calculator using if-else </a> <br>
 2. WAP to create a simple calculator using switch-case <br>
 3. WAP to display a number if it is negative <br>
 4. WAP to Check whether an integer is odd or even <br>
