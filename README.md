@@ -38,6 +38,54 @@
 35. <a href="">WAP program to calculate factorial of a number.</a> <br>
 36. <a href="">WAP program to find HCF (GCD) of two numbers.</a> <br>
 37. <a href="">WAP program to find LCM of two numbers.</a> <br>
+38. WAP to find max & min element in an array.	
+WAP to count the frequency of each element in an array 	
+WAP to convert Decimal number into Octal number 	
+WAP to count and display the position of Armstrong number in an array 	
+WAP to separate out +ve, -ve and 0s in an array 	
+WAP to reverse the array elements 
+  WAP to the sum of integers in an array 
+
+WAP to sum of even numbers in an array 	
+WAP to print odd numbers in array 	
+ WAP to find sum and average of all the elements in an array  	
+ WAP to search for a number in an array 	
+ WAP to sort array in ascending order 	
+ WAP to display prime number 	
+ WAP to print two-dimensional array 	
+ WAP to sum of two matrices 	
+ WAP to sum of all elements in a matrix 	
+ WAP to sum of diagonal elements 
+
+
+
+
+	
+ WAP to find the transpose of a matrix 
+
+
+
+
+	
+ WAP to sum of middle row & column 
+
+
+
+
+	
+ WAP to find difference of two matrices 
+
+
+
+
+	
+ WAP to sum of lower triangular elements 
+
+
+
+
+	
+ WAP to sum of upper triangular elements 
 
 
 
