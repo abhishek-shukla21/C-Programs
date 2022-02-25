@@ -38,56 +38,25 @@
 35. <a href="">WAP program to calculate factorial of a number.</a> <br>
 36. <a href="">WAP program to find HCF (GCD) of two numbers.</a> <br>
 37. <a href="">WAP program to find LCM of two numbers.</a> <br>
-38. WAP to find max & min element in an array.	
-WAP to count the frequency of each element in an array 	
-WAP to convert Decimal number into Octal number 	
-WAP to count and display the position of Armstrong number in an array 	
-WAP to separate out +ve, -ve and 0s in an array 	
-WAP to reverse the array elements 
-  WAP to the sum of integers in an array 
-
-WAP to sum of even numbers in an array 	
-WAP to print odd numbers in array 	
- WAP to find sum and average of all the elements in an array  	
- WAP to search for a number in an array 	
- WAP to sort array in ascending order 	
- WAP to display prime number 	
- WAP to print two-dimensional array 	
- WAP to sum of two matrices 	
- WAP to sum of all elements in a matrix 	
- WAP to sum of diagonal elements 
-
-
-
-
-	
- WAP to find the transpose of a matrix 
-
-
-
-
-	
- WAP to sum of middle row & column 
-
-
-
-
-	
- WAP to find difference of two matrices 
-
-
-
-
-	
- WAP to sum of lower triangular elements 
-
-
-
-
-	
- WAP to sum of upper triangular elements 
-
-
-
-
-  ### (Give it a Star, if you found it useful) 
+38. <a href="">WAP to find max & min element in an array.</a>	
+39. <a href="">WAP to count the frequency of each element in an array </a>	
+40. <a href="">WAP to convert Decimal number into Octal number 	</a>
+41. <a href="">WAP to count and display the position of Armstrong number in an array </a> 	
+42. <a href="">WAP to separate out +ve, -ve and 0s in an array </a> 	
+43. <a href="">WAP to reverse the array elements </a>
+44. <a href="">WAP to the sum of integers in an array </a>
+45. <a href="">WAP to sum of even numbers in an array 	</a>
+46. <a href="">WAP to print odd numbers in array 	</a>
+47. <a href="">WAP to find sum and average of all the elements in an array </a>  	
+48. <a href="">WAP to search for a number in an array 	</a>
+49. <a href="">WAP to sort array in ascending order </a>	
+50. <a href="">WAP to display prime number 	</a>
+51. <a href="">WAP to print two-dimensional array </a> 	
+52. <a href="">WAP to sum of two matrices </a>	
+53. <a href="">WAP to sum of all elements in a matrix </a> 	
+54. <a href="">WAP to sum of diagonal elements. </a>
+55. <a href="">WAP to find the transpose of a matrix </a>	
+56. <a href="">WAP to sum of middle row & column. </a>	
+57. <a href="">WAP to find difference of two matrices </a>
+58. <a href="">WAP to sum of lower triangular elements </a>
+	59. <a href="">WAP to sum of upper triangular elements.</a> <br> 
