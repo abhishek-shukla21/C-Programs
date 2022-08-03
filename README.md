@@ -14,11 +14,11 @@
 11. <a href="">WAP to find roots of a quadratic equation using switch case.</a> <br>
 12. <a href="">WAP to input basic salary of an employee and calculate its Gross salary.</a> <br>
 13. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20all%20natural%20numbers%20from%201%20to%20n%20-%20using%20while%20loop.c">WAP program to print all natural numbers from 1 to n. - using while loop.</a> <br>
-14. <a href="">WAP program to print all natural numbers in reverse (from n to 1). - using while loop.</a> <br>
-15. <a href="">WAP program to print all alphabets from a to z. - using while loop.</a> <br>
-16. <a href="">WAP program to print all even numbers between 1 to 100. - using while loop.</a> <br>
-17. <a href="">WAP program to print all odd numbers between 1 to 100.</a> <br>
-18. <a href="">WAP program to find sum of all natural numbers between 1 to n.</a> <br>
+14. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/WAP%20program%20to%20print%20all%20natural%20numbers%20in%20reverse%20(from%20n%20to%201)%20-%20using%20while%20loop.c">WAP program to print all natural numbers in reverse (from n to 1). - using while loop.</a> <br>
+15. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20all%20alphabets%20from%20a%20to%20z%20-%20using%20while%20loop.c">WAP program to print all alphabets from a to z. - using while loop.</a> <br>
+16. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20all%20even%20numbers%20between%201%20to%20100%20-%20using%20while%20loop.c">WAP program to print all even numbers between 1 to 100. - using while loop.</a> <br>
+17. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/WAP%20program%20to%20print%20all%20odd%20numbers%20between%201%20to%20100.c">WAP program to print all odd numbers between 1 to 100.</a> <br>
+18. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20natural%20numbers%20between%201%20to%20n.c">WAP program to find sum of all natural numbers between 1 to n.</a> <br>
 19. <a href="">WAP program to find sum of all even numbers between 1 to n.</a> <br>
 20. <a href="">WAP program to find the sum of all odd numbers between 1 to n.</a> <br>
 21. <a href="">WAP program to print multiplication table of any number.</a> <br>
