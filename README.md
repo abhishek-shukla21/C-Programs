@@ -13,7 +13,7 @@
 10. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/input%20week%20number%20and%20print%20week%20day.c">WAP to input week number and print week day.</a> <br>
 11. <a href="">WAP to find roots of a quadratic equation using switch case.</a> <br>
 12. <a href="">WAP to input basic salary of an employee and calculate its Gross salary.</a> <br>
-13. <a href="">WAP program to print all natural numbers from 1 to n. - using while loop.</a> <br>
+13. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20all%20natural%20numbers%20from%201%20to%20n%20-%20using%20while%20loop.c">WAP program to print all natural numbers from 1 to n. - using while loop.</a> <br>
 14. <a href="">WAP program to print all natural numbers in reverse (from n to 1). - using while loop.</a> <br>
 15. <a href="">WAP program to print all alphabets from a to z. - using while loop.</a> <br>
 16. <a href="">WAP program to print all even numbers between 1 to 100. - using while loop.</a> <br>
