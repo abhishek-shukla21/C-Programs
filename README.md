@@ -19,8 +19,8 @@
 16. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20all%20even%20numbers%20between%201%20to%20100%20-%20using%20while%20loop.c">WAP program to print all even numbers between 1 to 100. - using while loop.</a> <br>
 17. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/WAP%20program%20to%20print%20all%20odd%20numbers%20between%201%20to%20100.c">WAP program to print all odd numbers between 1 to 100.</a> <br>
 18. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20natural%20numbers%20between%201%20to%20n.c">WAP program to find sum of all natural numbers between 1 to n.</a> <br>
-19. <a href="">WAP program to find sum of all even numbers between 1 to n.</a> <br>
-20. <a href="">WAP program to find the sum of all odd numbers between 1 to n.</a> <br>
+19. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20even%20numbers%20between%201%20to%20n.c">WAP program to find sum of all even numbers between 1 to n.</a> <br>
+20. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20odd%20numbers%20between%201%20to%20n.c">WAP program to find the sum of all odd numbers between 1 to n.</a> <br>
 21. <a href="">WAP program to print multiplication table of any number.</a> <br>
 22. <a href="">WAP program to count the number of digits in a number.</a> <br>
 23. <a href="">WAP program to find the first and last digit of a number.</a> <br>
