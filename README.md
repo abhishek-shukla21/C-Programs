@@ -11,7 +11,7 @@
 8. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/input%20any%20alphabet%20and%20check%20it%20is%20vowel%20or%20consonant.c">WAP to input any alphabet and check it is vowel or consonant.</a> <br>
 9. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/input%20any%20character%20and%20check%20whether%20it%20is%20alphabet%2C%20digit%20or%20special%20character.c">WAP to input any character and check whether it is alphabet, digit or special character. </a> <br>
 10. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/input%20week%20number%20and%20print%20week%20day.c">WAP to input week number and print week day.</a> <br>
-11. <a href="">WAP to find roots of a quadratic equation using switch case.</a> <br>
+11. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20roots%20of%20a%20quadratic%20equation%20using%20switch%20case.c">WAP to find roots of a quadratic equation using switch case.</a> <br>
 12. <a href="">WAP to input basic salary of an employee and calculate its Gross salary.</a> <br>
 13. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20all%20natural%20numbers%20from%201%20to%20n%20-%20using%20while%20loop.c">WAP program to print all natural numbers from 1 to n. - using while loop.</a> <br>
 14. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/WAP%20program%20to%20print%20all%20natural%20numbers%20in%20reverse%20(from%20n%20to%201)%20-%20using%20while%20loop.c">WAP program to print all natural numbers in reverse (from n to 1). - using while loop.</a> <br>
@@ -22,7 +22,7 @@
 19. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20even%20numbers%20between%201%20to%20n.c">WAP program to find sum of all even numbers between 1 to n.</a> <br>
 20. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20odd%20numbers%20between%201%20to%20n.c">WAP program to find the sum of all odd numbers between 1 to n.</a> <br>
 21. <a href="">WAP program to print multiplication table of any number.</a> <br>
-22. <a href="">WAP program to count the number of digits in a number.</a> <br>
+22. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/count%20the%20number%20of%20digits%20in%20a%20number.c">WAP program to count the number of digits in a number.</a> <br>
 23. <a href="">WAP program to find the first and last digit of a number.</a> <br>
 24. <a href="">WAP program to find sum of the first and last digit of a number.</a> <br>
 25. <a href="">WAP program to swap first and last digits of a number.</a> <br>
@@ -32,7 +32,7 @@
 29. <a href="">WAP program to check whether a number is palindrome or not.</a> <br>
 30. <a href="">WAP program to find frequency of each digit in a given integer.</a> <br>
 31. <a href="">WAP program to enter a number and print it in words.</a><br>
-32. <a href="">WAP program to print all ASCII characters with their values.</a> <br> 
+32. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20all%20ASCII%20characters%20with%20their%20values.c">WAP program to print all ASCII characters with their values.</a> <br> 
 33. <a href="">WAP program to find power of a number using for loop.</a> <br> 
 34. <a href="">WAP program to find all factors of a number.</a> <br>
 35. <a href="">WAP program to calculate factorial of a number.</a> <br>
@@ -43,7 +43,7 @@
 40. <a href="">WAP to convert Decimal number into Octal number 	</a>
 41. <a href="">WAP to count and display the position of Armstrong number in an array </a> 	
 42. <a href="">WAP to separate out +ve, -ve and 0s in an array </a> 	
-43. <a href="">WAP to reverse the array elements </a>
+43. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/reverse%20the%20array%20elements.c">WAP to reverse the array elements </a>
 44. <a href="">WAP to the sum of integers in an array </a>
 45. <a href="">WAP to sum of even numbers in an array 	</a>
 46. <a href="">WAP to print odd numbers in array 	</a>
