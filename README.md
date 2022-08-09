@@ -21,11 +21,11 @@
 - [x] 18. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20natural%20numbers%20between%201%20to%20n.c">WAP program to find sum of all natural numbers between 1 to n.</a> <br>
 - [x] 19. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20even%20numbers%20between%201%20to%20n.c">WAP program to find sum of all even numbers between 1 to n.</a> <br>
 - [x] 20. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20all%20odd%20numbers%20between%201%20to%20n.c">WAP program to find the sum of all odd numbers between 1 to n.</a> <br>
-- [ ] 21. <a href="">WAP program to print multiplication table of any number.</a> <br>
+- [x] 21. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20multiplication%20table%20of%20any%20number.c">WAP program to print multiplication table of any number.</a> <br>
 - [x] 22. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/count%20the%20number%20of%20digits%20in%20a%20number.c">WAP program to count the number of digits in a number.</a> <br>
-- [ ] 23. <a href="">WAP program to find the first and last digit of a number.</a> <br>
-- [ ] 24. <a href="">WAP program to find sum of the first and last digit of a number.</a> <br>
-- [ ] 25. <a href="">WAP program to swap first and last digits of a number.</a> <br>
+- [x] 23. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20the%20first%20and%20last%20digit%20of%20a%20number.c">WAP program to find the first and last digit of a number.</a> <br>
+- [x] 24. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20sum%20of%20the%20first%20and%20last%20digit%20of%20a%20number.c">WAP program to find sum of the first and last digit of a number.</a> <br>
+- [x] 25. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/swap%20first%20and%20last%20digits%20of%20a%20number.c">WAP program to swap first and last digits of a number.</a> <br>
 - [ ] 26. <a href="">WAP program to calculate the sum of digits of a number.</a> <br>
 - [ ] 27. <a href="">WAP program to calculate product of digits of a number.</a> <br>
 - [ ] 28. <a href="">WAP program to enter a number and print its reverse.</a> <br>
