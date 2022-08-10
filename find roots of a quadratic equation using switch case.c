@@ -1,4 +1,31 @@
-//WAP program to find roots of a quadratic equation using switch case.
+/*
+author: Dennis Folz
+github profile : https://github.com/SchattenMonarch
+date:   10.08.22
+
+program: WAP program to find roots of a quadratic equation using switch case.
+
+The program is capable of calculating normal and complex roots. 
+
+Example 1
+
+Input
+    1 2 4
+Output
+	The roots are complex:
+    x_1 = -1.000 + (1.732)i
+	x_2 = -1.000 + (-1.732)i
+	
+Example 2
+
+Input
+	1 4 2
+Output
+	The roots are:
+	x_1 = -0.586
+	x_2 = -3.414
+
+*/
 #include <stdio.h>
 #include <math.h>
 
