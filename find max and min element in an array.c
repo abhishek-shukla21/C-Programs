@@ -36,6 +36,8 @@ void clearStdinFromGarbage(void) {
     while (getchar() != '\n');
 }
 
+//createArray
+//allocates memory for the array
 array* createArray(int size) {
     if (size <= 0)
         return NULL;
@@ -54,6 +56,8 @@ array* createArray(int size) {
     return NULL;
 }
 
+//insertElement
+//inserts an element to the given position into the array
 int insertElement(array* arr, int pos, int value) {
     if (arr == NULL) return FALSE;
     if (pos < 0 || pos > arr->size) return FALSE;
@@ -63,8 +67,10 @@ int insertElement(array* arr, int pos, int value) {
     return arr->values[pos];
 }
 
+//displayArray
+//prints the elements of an array seperated by spaces
 void displayArray(array* arr) {
-     if (arr == NULL) return;
+    if (arr == NULL) return;
 
     for (int i = 0; i < arr->size; i++) {
         printf("%d ", arr->values[i]);
@@ -72,6 +78,9 @@ void displayArray(array* arr) {
     return;
 }
 
+//findMaxAndMin
+//loops through the whole array and searches for the min and max element
+//and prints them afterwards.
 void findMaxAndMin(array* arr) {
     if (arr == NULL) return;
     int min = 0xFFFF, max = FALSE;
