@@ -70,3 +70,67 @@ void displayArray(array* arr) {
     }
     return;
 }
+
+int main()
+{
+    array* a;
+    unsigned char options = FALSE;
+    int input = FALSE, size = FALSE, randomVal = FALSE, val = FALSE;
+    time_t t;
+    /* Intializes random number generator */
+    srand((unsigned)time(&t));
+
+    puts("In this program we'll find the min and max element in an array. "
+        "Choose an option a/b:\n a) Random array \n b) Enter elements");
+    while (scanf("%c", &options) != 1) {
+        clearStdinFromGarbage();
+        puts("Uuups ... somethin went wrong. Try again: ");
+    }
+
+    switch (options)
+    {
+    case RANDOM_ARRAY: 
+        a = createArray(ARRAY_DEFAULT_SIZE);
+
+        for (int i = 0; i < a->size; i++) {
+            randomVal = (int)(rand() % 1000);
+            if (insertElement(a, i, randomVal) != randomVal) {
+                puts("Error: insertElement failed. Terminating program...");
+                return 0;
+            }
+        }
+        puts("Printing random generated array...");
+        displayArray(a);
+        break;
+    case ENTER_ELEMENTS:
+        puts("How many elements do you want to enter?");
+
+        while (scanf("%d", &size) != 1) {
+            clearStdinFromGarbage();
+            puts("Uuups ... somethin went wrong. Try again: ");
+        }
+
+        a = createArray(size);
+        if (a != NULL) {
+            for(int i = 0; i < a->size; i++) {
+                printf("Enter element #%d: ", i+1);
+                while (scanf("%d", &val) != 1) {
+                    clearStdinFromGarbage();
+                    puts("Uuups ... somethin went wrong. Try again: ");
+                }
+                if (insertElement(a, i, val) != val) {
+                    puts("Error: insertElement failed. Terminating program...");
+                    return 0;
+                }
+            }
+            puts("You entered the following numbers: ");
+            displayArray(a);
+        }
+        break;
+    default:
+        puts("Invalid input. Terminating the program...");
+        break;
+    }
+
+    return 0;
+}
