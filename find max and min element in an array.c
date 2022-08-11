@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 /*
 author: Dennis Folz
 github profile : https://github.com/SchattenMonarch
@@ -24,7 +25,7 @@ Output
 #define RANDOM_ARRAY ((unsigned char)'a')
 #define ENTER_ELEMENTS ((unsigned char)'b')
 
-typedef struct{
+typedef struct {
     int* values;
     int size;
 }array;
@@ -36,7 +37,7 @@ void clearStdinFromGarbage(void) {
 }
 
 array* createArray(int size) {
-    if (size <= 0) 
+    if (size <= 0)
         return NULL;
 
     array* arr = (array*)malloc(sizeof(array));
@@ -58,17 +59,27 @@ int insertElement(array* arr, int pos, int value) {
     if (pos < 0 || pos > arr->size) return FALSE;
 
     arr->values[pos] = value;
-    
+
     return arr->values[pos];
 }
 
 void displayArray(array* arr) {
-//    if (arr == NULL) return;
-    
+     if (arr == NULL) return;
+
     for (int i = 0; i < arr->size; i++) {
         printf("%d ", arr->values[i]);
     }
     return;
+}
+
+void findMaxAndMin(array* arr) {
+    if (arr == NULL) return;
+    int min = 0xFFFF, max = FALSE;
+    for (int i = 0; i < arr->size; i++) {
+        min = arr->values[i] < min ? arr->values[i] : min;
+        max = arr->values[i] > max ? arr->values[i] : max;
+    }
+    printf("\nMax element: %d\nMin element: %d", max, min);
 }
 
 int main()
@@ -89,7 +100,7 @@ int main()
 
     switch (options)
     {
-    case RANDOM_ARRAY: 
+    case RANDOM_ARRAY:
         a = createArray(ARRAY_DEFAULT_SIZE);
 
         for (int i = 0; i < a->size; i++) {
@@ -112,8 +123,8 @@ int main()
 
         a = createArray(size);
         if (a != NULL) {
-            for(int i = 0; i < a->size; i++) {
-                printf("Enter element #%d: ", i+1);
+            for (int i = 0; i < a->size; i++) {
+                printf("Enter element #%d: ", i + 1);
                 while (scanf("%d", &val) != 1) {
                     clearStdinFromGarbage();
                     puts("Uuups ... somethin went wrong. Try again: ");
@@ -128,9 +139,11 @@ int main()
         }
         break;
     default:
+        a = NULL;
         puts("Invalid input. Terminating the program...");
         break;
     }
-
+    findMaxAndMin(a);
     return 0;
 }
+
