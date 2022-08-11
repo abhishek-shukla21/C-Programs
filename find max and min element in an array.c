@@ -61,3 +61,12 @@ int insertElement(array* arr, int pos, int value) {
     
     return arr->values[pos];
 }
+
+void displayArray(array* arr) {
+//    if (arr == NULL) return;
+    
+    for (int i = 0; i < arr->size; i++) {
+        printf("%d ", arr->values[i]);
+    }
+    return;
+}
