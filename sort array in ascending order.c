@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 /*
 author: Dennis Folz
 github profile : https://github.com/SchattenMonarch
@@ -12,3 +13,18 @@ Input
 Output
     2 2 4 9 10 80
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TRUE  !0
+#define FALSE 0
+#define ARRAY_DEFAULT_SIZE ((int)20)
+#define RANDOM_ARRAY ((unsigned char)'a')
+#define ENTER_ELEMENTS ((unsigned char)'b')
+#define BUBBLE_SORT ((unsigned char)'a')
+
+typedef struct {
+    int* values;
+    int size;
+}array;
