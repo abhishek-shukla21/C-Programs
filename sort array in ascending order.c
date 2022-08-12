@@ -215,6 +215,7 @@ void chooseSortingAlg(array* a) {
         puts("The array was sorted with the bubble sort algorithm. Printing the sorted array...");
         displayArray(sortedArray);
         free(sortedArray);
+		break;
     default:
         puts("Undefined input.");
         break;
