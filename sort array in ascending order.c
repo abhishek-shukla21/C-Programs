@@ -33,6 +33,7 @@ void clearStdinFromGarbage(void);
 array* createArray(int size);
 int insertElement(array* arr, int pos, int value);
 void displayArray(array* arr);
+array* cpyArray(array* arr1);
 
 int main()
 {
@@ -85,4 +86,22 @@ void displayArray(array* arr) {
         printf("%d ", arr->values[i]);
     }
     return;
+}
+
+//cpyArray
+//returns the copy of an array
+array* cpyArray(array* arr1) {
+    if (arr1 == NULL) return NULL;
+
+    array* cpy = createArray(arr1->size);
+    if (cpy != NULL) {
+        cpy->size = arr1->size;
+        for (int i = 0; i < cpy->size; i++) {
+            if (insertElement(cpy, i, arr1->values[i]) != arr1->values[i]) {
+                puts("Insertion failed while copying an array.");
+                break;
+            }
+        }
+    }
+    return cpy;
 }
