@@ -35,6 +35,7 @@ int insertElement(array* arr, int pos, int value);
 void displayArray(array* arr);
 array* cpyArray(array* arr1);
 void swap(array* a, int pos1, int pos2);
+array* bubbleSortArray(array* arr);
 
 int main()
 {
@@ -113,4 +114,20 @@ void swap(array* a, int pos1, int pos2) {
     int tmp = a->values[pos2];
     a->values[pos2] = a->values[pos1];
     a->values[pos1] = tmp;
+}
+
+//bubbleSartArray
+//sorts an array with the bubbleSort algorithm
+array* bubbleSortArray(array* arr) {
+    array* sortedArray = cpyArray(arr);
+    if (sortedArray != NULL) {
+        for (int i = 0; i < sortedArray->size; i++) {
+            for (int j = 0; j < sortedArray->size - 1 - i; j++) {
+                if (sortedArray->values[j] > sortedArray->values[j + 1]) {
+                    swap(sortedArray, j, j + 1);
+                }
+            }
+        }
+    }
+    return sortedArray;
 }
