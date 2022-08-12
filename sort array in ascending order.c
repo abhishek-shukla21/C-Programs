@@ -28,3 +28,16 @@ typedef struct {
     int* values;
     int size;
 }array;
+
+void clearStdinFromGarbage(void);
+
+int main()
+{
+	return 0;
+}
+
+//clearStdinFromGarbage
+//clears stdin from anything. Wrong user inputs will be erased.
+void clearStdinFromGarbage(void) {
+    while (getchar() != '\n');
+}
