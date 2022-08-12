@@ -31,6 +31,7 @@ typedef struct {
 
 void clearStdinFromGarbage(void);
 array* createArray(int size);
+int insertElement(array* arr, int pos, int value);
 
 int main()
 {
@@ -61,4 +62,15 @@ array* createArray(int size) {
         }
     }
     return NULL;
+}
+
+//insertElement
+//inserts an element to the given position into an array
+int insertElement(array* arr, int pos, int value) {
+    if (arr == NULL) return FALSE;
+    if (pos < 0 || pos > arr->size) return FALSE;
+
+    arr->values[pos] = value;
+
+    return arr->values[pos];
 }
