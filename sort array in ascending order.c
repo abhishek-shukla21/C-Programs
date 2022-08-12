@@ -32,6 +32,7 @@ typedef struct {
 void clearStdinFromGarbage(void);
 array* createArray(int size);
 int insertElement(array* arr, int pos, int value);
+void displayArray(array* arr);
 
 int main()
 {
@@ -73,4 +74,15 @@ int insertElement(array* arr, int pos, int value) {
     arr->values[pos] = value;
 
     return arr->values[pos];
+}
+
+//displayArray
+//prints the elements of an array seperated by spaces
+void displayArray(array* arr) {
+    if (arr == NULL) return;
+
+    for (int i = 0; i < arr->size; i++) {
+        printf("%d ", arr->values[i]);
+    }
+    return;
 }
