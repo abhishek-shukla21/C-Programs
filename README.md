@@ -37,8 +37,8 @@
 - [x] 34. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20all%20factors%20of%20a%20number.c">WAP program to find all factors of a number.</a> <br>
 - [x] 35. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/calculate%20factorial%20of%20a%20number.c">WAP program to calculate factorial of a number.</a> <br>
 - [x] 36. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20HCF%20of%20two%20numbers.c">WAP program to find HCF (GCD) of two numbers.</a> <br>
-- [ ] 37. <a href="">WAP program to find LCM of two numbers.</a> <br>
-- [ ] 38. <a href="">WAP to find max & min element in an array.</a>	
+- [x] 37. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20LCM%20of%20two%20numbers.c">WAP program to find LCM of two numbers.</a> <br>
+- [x] 38. <a href="https://github.com/SchattenMonarch/C-Programs/blob/linked-new-programs-to-readme/find%20max%20and%20min%20element%20in%20an%20array.c">WAP to find max & min element in an array.</a>	
 - [ ] 39. <a href="">WAP to count the frequency of each element in an array </a>	
 - [ ] 40. <a href="">WAP to convert Decimal number into Octal number 	</a>
 - [ ] 41. <a href="">WAP to count and display the position of Armstrong number in an array </a> 	
