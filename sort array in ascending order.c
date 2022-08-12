@@ -40,7 +40,68 @@ void chooseSortingAlg(array* a);
 
 int main()
 {
-	return 0;
+    array* a;
+    unsigned char options = FALSE, sortingAlg = BUBBLE_SORT;
+    int input = FALSE, size = FALSE, randomVal = FALSE, val = FALSE;
+    time_t t;
+    /* Intializes random number generator */
+    srand((unsigned)time(&t));
+
+    puts("In this program we'll sort an array."
+        "Choose an option a/b:\n a) Generate a random array \n b) Enter the elements manually");
+    while (scanf("%c", &options) != 1) {
+        clearStdinFromGarbage();
+        puts("Uuups ... somethin went wrong. Try again: ");
+    }
+
+    switch (options)
+    {
+    case RANDOM_ARRAY:
+        a = createArray(ARRAY_DEFAULT_SIZE);
+
+        for (int i = 0; i < a->size; i++) {
+            randomVal = (int)(rand() % 1000);
+            if (insertElement(a, i, randomVal) != randomVal) {
+                puts("Error: insertElement failed. Terminating program...");
+                return 0;
+            }
+        }
+        puts("Printing random generated array...");
+        displayArray(a);
+        break;
+    case ENTER_ELEMENTS:
+        puts("How many elements do you want to enter?");
+
+        while (scanf("%d", &size) != 1) {
+            clearStdinFromGarbage();
+            puts("Uuups ... somethin went wrong. Try again: ");
+        }
+
+        a = createArray(size);
+        if (a != NULL) {
+            for (int i = 0; i < a->size; i++) {
+                printf("Enter element #%d: ", i + 1);
+                while (scanf("%d", &val) != 1) {
+                    clearStdinFromGarbage();
+                    puts("Uuups ... somethin went wrong. Try again: ");
+                }
+                if (insertElement(a, i, val) != val) {
+                    puts("Error: insertElement failed. Terminating program...");
+                    return 0;
+                }
+            }
+            puts("You entered the following numbers: ");
+            displayArray(a);
+        }
+        break;
+    default:
+        a = NULL;
+        puts("Invalid input. Terminating the program...");
+        break;
+    }
+    
+    chooseSortingAlg(a);
+    return 0;
 }
 
 //clearStdinFromGarbage
