@@ -34,6 +34,7 @@ array* createArray(int size);
 int insertElement(array* arr, int pos, int value);
 void displayArray(array* arr);
 array* cpyArray(array* arr1);
+void swap(array* a, int pos1, int pos2);
 
 int main()
 {
@@ -104,4 +105,12 @@ array* cpyArray(array* arr1) {
         }
     }
     return cpy;
+}
+
+//swap
+//swaps two elements in an array
+void swap(array* a, int pos1, int pos2) {
+    int tmp = a->values[pos2];
+    a->values[pos2] = a->values[pos1];
+    a->values[pos1] = tmp;
 }
