@@ -36,6 +36,7 @@ void displayArray(array* arr);
 array* cpyArray(array* arr1);
 void swap(array* a, int pos1, int pos2);
 array* bubbleSortArray(array* arr);
+void chooseSortingAlg(array* a);
 
 int main()
 {
@@ -130,4 +131,32 @@ array* bubbleSortArray(array* arr) {
         }
     }
     return sortedArray;
+}
+
+//chooseSortingAlg
+//allows the user to choose an algorithm to sort an array.
+//for now only bubble sort implemented
+//TODO: implement more sorting algorithms
+void chooseSortingAlg(array* a) {
+    unsigned char sortingAlg = FALSE;
+    array* sortedArray = NULL;
+    puts("\nChoose a sorting algorithm:\na) Bubble sort");
+    clearStdinFromGarbage();
+    while (scanf("%c", &sortingAlg) != 1) {
+        clearStdinFromGarbage();
+        puts("Uuups ... somethin went wrong. Try again: ");
+    }
+
+    switch (sortingAlg)
+    {
+    case BUBBLE_SORT:
+        sortedArray = bubbleSortArray(a);
+        puts("The array was sorted with the bubble sort algorithm. Printing the sorted array...");
+        displayArray(sortedArray);
+        free(sortedArray);
+    default:
+        puts("Undefined input.");
+        break;
+    }
+    return;
 }
