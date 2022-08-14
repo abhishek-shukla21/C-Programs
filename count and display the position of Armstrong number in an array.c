@@ -43,3 +43,23 @@ void find_and_display_position_of_armstrong_number(array* a);
 void clearStdinFromGarbage(void) {
     while (getchar() != '\n');
 }
+
+//createArray
+//allocates memory for the array
+array* createArray(int size) {
+    if (size <= 0)
+        return NULL;
+
+    array* arr = (array*)malloc(sizeof(array));
+    if (arr != NULL) {
+        arr->values = (int*)malloc(size * sizeof(int));
+        arr->size = size;
+        if (arr->values != NULL) {
+            for (int i = 0; i < size; i++) {
+                arr->values[i] = 0;
+            }
+            return arr;
+        }
+    }
+    return NULL;
+}
