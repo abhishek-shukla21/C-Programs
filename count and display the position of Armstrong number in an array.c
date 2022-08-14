@@ -72,6 +72,8 @@ int main()
     return 0;
 }
 
+//find_and_display_position_of_armstrong_number
+//finds and displays an armstrong number in an array and prints it
 void find_and_display_position_of_armstrong_number(array* a) {
     unsigned char contains_armstrong = FALSE;
     for (int i = 0; i < a->size; i++) {
@@ -86,6 +88,8 @@ void find_and_display_position_of_armstrong_number(array* a) {
     return;
 }
 
+//is_armstrong
+//checks if a number is an armstrong number
 unsigned char is_armstrong(int number) {
     int tmp = FALSE, cpy = number, nr_of_dgts = get_number_of_digits(number);
 
@@ -96,10 +100,14 @@ unsigned char is_armstrong(int number) {
     return tmp == cpy ? TRUE : FALSE;
 }
 
+//get_last_digit
+//returns the last digit of a number
 unsigned char get_last_digit(int number) {
     return number % 10;
 }
 
+//get_number_of_digits
+//returns the number of digits of a number
 int get_number_of_digits(int number) {
     return number > 0 ? 1 + get_number_of_digits(number / 10) : FALSE;
 }
@@ -152,3 +160,4 @@ void displayArray(array* arr) {
     putchar('\n');
     return;
 }
+
