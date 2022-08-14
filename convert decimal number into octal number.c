@@ -16,6 +16,22 @@ Output
 #include <stdio.h>
 #include <stdlib.h>
 
+void clearStdinFromGarbage(void) {
+    while (getchar() != '\n');
+}
+
 int decimal_to_octal(int decimal) {
     return decimal > 0 ? decimal % 8 + 10 * decimal_to_octal(decimal / 8) : 0;
+}
+
+int main()
+{
+    int input = 0;
+    puts("Enter a decimal number to convert it to an octal number: ");
+    while (scanf("%i", &input) != 1) {
+        clearStdinFromGarbage();
+        puts("Uuups ... something went wrong. Try again: ");
+    }
+    printf("%d", decimal_to_octal(input));
+    return 0;
 }
