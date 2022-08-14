@@ -63,3 +63,14 @@ array* createArray(int size) {
     }
     return NULL;
 }
+
+//insertElement
+//inserts an element to the given position into the array
+int insertElement(array* arr, int pos, int value) {
+    if (arr == NULL) return FALSE;
+    if (pos < 0 || pos > arr->size) return FALSE;
+
+    arr->values[pos] = value;
+
+    return arr->values[pos];
+}
