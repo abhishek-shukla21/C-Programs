@@ -15,3 +15,25 @@ Output
     found armstrong number at position#1: 370
     found armstrong number at position#4: 1634
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+#define TRUE  ((unsigned char)!0)
+#define FALSE ((unsigned char)0)
+
+typedef struct {
+    int* values;
+    int size;
+}array;
+
+void clearStdinFromGarbage(void);
+array* createArray(int size);
+int insertElement(array* arr, int pos, int value);
+void displayArray(array* arr);
+
+int get_number_of_digits(int number);
+unsigned char get_last_digit(int number);
+unsigned char is_armstrong(int number);
+void find_and_display_position_of_armstrong_number(array* a);
