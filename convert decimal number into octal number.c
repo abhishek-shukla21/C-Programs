@@ -15,3 +15,7 @@ Output
 
 #include <stdio.h>
 #include <stdlib.h>
+
+int decimal_to_octal(int decimal) {
+    return decimal > 0 ? decimal % 8 + 10 * decimal_to_octal(decimal / 8) : 0;
+}
