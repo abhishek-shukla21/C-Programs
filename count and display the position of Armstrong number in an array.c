@@ -38,6 +38,39 @@ unsigned char get_last_digit(int number);
 unsigned char is_armstrong(int number);
 void find_and_display_position_of_armstrong_number(array* a);
 
+int main()
+{
+    int size = FALSE, val = FALSE;
+    array* a = NULL;
+
+    puts("In this program we'll find the position of an armstrong number in an array.\nFirst you need to enter the elements to fill the array.");
+    puts("How many elements do you want to enter?");
+
+    while (scanf("%d", &size) != 1) {
+        clearStdinFromGarbage();
+        puts("Uuups ... somethin went wrong. Try again: ");
+    }
+
+    a = createArray(size);
+    if (a != NULL) {
+        for (int i = 0; i < a->size; i++) {
+            printf("Enter element #%d: ", i);
+            while (scanf("%d", &val) != 1) {
+                clearStdinFromGarbage();
+                puts("Uuups ... somethin went wrong. Try again: ");
+            }
+            if (insertElement(a, i, val) != val) {
+                puts("Error: insertElement failed. Terminating program...");
+                return 0;
+            }
+        }
+        puts("You entered the following numbers: ");
+        displayArray(a);
+    }
+
+    find_and_display_position_of_armstrong_number(a);
+    return 0;
+}
 
 void find_and_display_position_of_armstrong_number(array* a) {
     unsigned char contains_armstrong = FALSE;
