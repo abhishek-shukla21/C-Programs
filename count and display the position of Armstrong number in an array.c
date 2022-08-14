@@ -39,6 +39,9 @@ unsigned char is_armstrong(int number);
 void find_and_display_position_of_armstrong_number(array* a);
 
 
+unsigned char get_last_digit(int number) {
+    return number % 10;
+}
 
 int get_number_of_digits(int number) {
     return number > 0 ? 1 + get_number_of_digits(number / 10) : FALSE;
