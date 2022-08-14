@@ -38,6 +38,12 @@ unsigned char get_last_digit(int number);
 unsigned char is_armstrong(int number);
 void find_and_display_position_of_armstrong_number(array* a);
 
+
+
+int get_number_of_digits(int number) {
+    return number > 0 ? 1 + get_number_of_digits(number / 10) : FALSE;
+}
+
 //clearStdinFromGarbage
 //clears stdin from anything. Wrong user inputs will be erased.
 void clearStdinFromGarbage(void) {
