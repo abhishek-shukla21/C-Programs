@@ -16,10 +16,14 @@ Output
 #include <stdio.h>
 #include <stdlib.h>
 
+//clearStdinFromGarbage
+//clears stdin from anything. Wrong user inputs will be erased.
 void clearStdinFromGarbage(void) {
     while (getchar() != '\n');
 }
 
+//decimal_to_octal
+//recursive function that converts a decimal nuber to an octal number
 int decimal_to_octal(int decimal) {
     return decimal > 0 ? decimal % 8 + 10 * decimal_to_octal(decimal / 8) : 0;
 }
