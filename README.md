@@ -49,7 +49,7 @@
 - [ ] 46. <a href="">WAP to print odd numbers in array 	</a>
 - [ ] 47. <a href="">WAP to find sum and average of all the elements in an array </a>  	
 - [ ] 48. <a href="">WAP to search for a number in an array 	</a>
-- [ ] 49. <a href="">WAP to sort array in ascending order </a>	
+- [x] 49. <a href="https://github.com/SchattenMonarch/C-Programs/blob/linked-new-programs-to-readme/sort%20array%20in%20ascending%20order.c">WAP to sort array in ascending order </a>	
 - [ ] 50. <a href="">WAP to display prime number 	</a>
 - [ ] 51. <a href="">WAP to print two-dimensional array </a> 	
 - [ ] 52. <a href="">WAP to sum of two matrices </a>	
