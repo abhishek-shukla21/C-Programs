@@ -39,6 +39,16 @@ unsigned char is_armstrong(int number);
 void find_and_display_position_of_armstrong_number(array* a);
 
 
+unsigned char is_armstrong(int number) {
+    int tmp = FALSE, cpy = number, nr_of_dgts = get_number_of_digits(number);
+
+    while (get_number_of_digits(number)) {
+        tmp += (int)pow(get_last_digit(number), nr_of_dgts);
+        number /= 10;
+    }
+    return tmp == cpy ? TRUE : FALSE;
+}
+
 unsigned char get_last_digit(int number) {
     return number % 10;
 }
