@@ -37,3 +37,9 @@ int get_number_of_digits(int number);
 unsigned char get_last_digit(int number);
 unsigned char is_armstrong(int number);
 void find_and_display_position_of_armstrong_number(array* a);
+
+//clearStdinFromGarbage
+//clears stdin from anything. Wrong user inputs will be erased.
+void clearStdinFromGarbage(void) {
+    while (getchar() != '\n');
+}
