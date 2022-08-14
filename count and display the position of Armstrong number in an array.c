@@ -39,6 +39,20 @@ unsigned char is_armstrong(int number);
 void find_and_display_position_of_armstrong_number(array* a);
 
 
+void find_and_display_position_of_armstrong_number(array* a) {
+    unsigned char contains_armstrong = FALSE;
+    for (int i = 0; i < a->size; i++) {
+        if (is_armstrong(a->values[i])) {
+            printf("Found armstrong number at position#%d: %d\n", i, a->values[i]);
+            contains_armstrong = TRUE;
+        }
+    }
+    if (!contains_armstrong) {
+        puts("No armstrong number found");
+    }
+    return;
+}
+
 unsigned char is_armstrong(int number) {
     int tmp = FALSE, cpy = number, nr_of_dgts = get_number_of_digits(number);
 
