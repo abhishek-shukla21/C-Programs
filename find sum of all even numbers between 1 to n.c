@@ -10,7 +10,7 @@ Example
 Input
     5
 Output
-    15
+    6
 */
 
 #include <stdio.h>
