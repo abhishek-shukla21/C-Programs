@@ -40,8 +40,8 @@
 - [x] 37. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/find%20LCM%20of%20two%20numbers.c">WAP program to find LCM of two numbers.</a> <br>
 - [x] 38. <a href="https://github.com/SchattenMonarch/C-Programs/blob/linked-new-programs-to-readme/find%20max%20and%20min%20element%20in%20an%20array.c">WAP to find max & min element in an array.</a>	
 - [ ] 39. <a href="">WAP to count the frequency of each element in an array </a>	
-- [ ] 40. <a href="">WAP to convert Decimal number into Octal number 	</a>
-- [ ] 41. <a href="">WAP to count and display the position of Armstrong number in an array </a> 	
+- [x] 40. <a href="https://github.com/SchattenMonarch/C-Programs/blob/main/convert%20decimal%20number%20into%20octal%20number.c">WAP to convert Decimal number into Octal number 	</a>
+- [x] 41. <a href="https://github.com/SchattenMonarch/C-Programs/blob/main/count%20and%20display%20the%20position%20of%20Armstrong%20number%20in%20an%20array.c">WAP to count and display the position of Armstrong number in an array </a> 	
 - [ ] 42. <a href="">WAP to separate out +ve, -ve and 0s in an array </a> 	
 - [x] 43. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/reverse%20the%20array%20elements.c">WAP to reverse the array elements </a>
 - [ ] 44. <a href="">WAP to the sum of integers in an array </a>
