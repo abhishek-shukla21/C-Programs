@@ -1,4 +1,9 @@
-//WAP program to print all alphabets from a to z. - using while loop.
+/*
+author: Dennis Folz
+github profile : https://github.com/SchattenMonarch
+date:   02.08.22
+program: WAP program to print all alphabets from a to z. - using while loop.
+*/
 #include <stdio.h>
 int main()
 {

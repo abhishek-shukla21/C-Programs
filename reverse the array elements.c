@@ -1,3 +1,15 @@
+/*
+author: Dennis Folz
+github profile : https://github.com/SchattenMonarch
+date:   04.08.22
+program:  WAP to reverse the array elements
+Example
+Input
+    hello world
+Output
+	dlrow olleh
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
