@@ -44,9 +44,9 @@
 - [x] 41. <a href="https://github.com/SchattenMonarch/C-Programs/blob/main/count%20and%20display%20the%20position%20of%20Armstrong%20number%20in%20an%20array.c">WAP to count and display the position of Armstrong number in an array </a> 	
 - [ ] 42. <a href="">WAP to separate out +ve, -ve and 0s in an array </a> 	
 - [x] 43. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/reverse%20the%20array%20elements.c">WAP to reverse the array elements </a>
-- [ ] 44. <a href="">WAP to the sum of integers in an array </a>
-- [ ] 45. <a href="">WAP to sum of even numbers in an array 	</a>
-- [ ] 46. <a href="">WAP to print odd numbers in array 	</a>
+- [x] 44. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/sum%20of%20integers%20in%20an%20array.c">WAP to the sum of integers in an array </a>
+- [x] 45. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/sum%20of%20even%20numbers%20in%20an%20array.c">WAP to sum of even numbers in an array 	</a>
+- [x] 46. <a href="https://github.com/abhishek-shukla21/C-Programs/blob/main/print%20odd%20numbers%20in%20an%20array.c">WAP to print odd numbers in array 	</a>
 - [ ] 47. <a href="">WAP to find sum and average of all the elements in an array </a>  	
 - [ ] 48. <a href="">WAP to search for a number in an array 	</a>
 - [x] 49. <a href="https://github.com/SchattenMonarch/C-Programs/blob/linked-new-programs-to-readme/sort%20array%20in%20ascending%20order.c">WAP to sort array in ascending order </a>	
