@@ -2,10 +2,6 @@
 #include <stdio.h>
 int main()
 {
-    int n = 1;
-    while(n<=100){
-        printf("%i\t", n);
-        n += 2;
-    }
+    for (int n = 1; n<=100; n+=2) printf("%i\t", n);
     return 0;
 }
